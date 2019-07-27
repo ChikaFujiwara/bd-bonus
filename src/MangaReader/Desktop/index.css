@@ -1,0 +1,19 @@
+#manga-main {
+  position: relative;
+}
+
+#manga-main .scroll-reader {
+  padding: 2% 0;
+  background-color: black;
+}
+
+#manga-main .scroll-reader img {
+  max-width: 95%;
+  margin: 2em auto;
+  display: block;
+}
+
+#manga-main .scroll-reader img#re-gen-btn {
+  cursor: pointer;
+  max-width: 38%;
+}

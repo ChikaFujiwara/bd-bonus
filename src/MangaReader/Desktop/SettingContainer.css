@@ -1,0 +1,15 @@
+#sidebar {
+  position: fixed;
+  z-index: 50;
+  left: -2rem;
+  width: 2rem;
+  /* 垂直居中 */
+  top: 50vh;
+  transform: translate(0, -50%);
+  transition: left 0.3s;
+  background-color: rgba(128, 128, 128, 0.8);
+}
+
+#sidebar.show {
+  left: 0;
+}

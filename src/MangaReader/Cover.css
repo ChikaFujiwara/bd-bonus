@@ -1,0 +1,101 @@
+#cover {
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+}
+#cover-img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  max-width: 95%;
+}
+#title-container {
+  position: relative;
+  height: 351px;
+  max-width: 1000px;
+  margin-top: 3%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#title-container > img.subtit {
+  position: absolute;
+  width: 47.4%;
+  left: 42.8%;
+}
+#title-container > img.tit {
+  position: absolute;
+  width: 84.9%;
+  left: 7.55%;
+  top: 8.54%;
+}
+#title-container > img.subtit2 {
+  position: absolute;
+  width: 51.7%;
+  left: 8%;
+  top: 34.2%;
+}
+
+#title-container > img.butt {
+  position: absolute;
+  width: 50.8%;
+  left: 24.6%;
+  top: 67%;
+  cursor: pointer;
+}
+#title-container > img.cnb {
+  position: absolute;
+  width: 49.1%;
+  left: 5.2%;
+  top: 108%;
+}
+
+.slide-in-1 {
+  opacity: 0;
+  animation-fill-mode: forwards;
+  animation-duration: 0.6s;
+  animation-name: slidein;
+}
+
+.slide-in-2 {
+  opacity: 0;
+  animation-fill-mode: forwards;
+  animation-duration: 0.6s;
+  animation-name: slidein;
+  animation-delay: 1s;
+}
+.slide-in-3 {
+  opacity: 0;
+  animation-fill-mode: forwards;
+  animation-duration: 0.6s;
+  animation-name: slidein;
+  animation-delay: 2s;
+}
+.fade-in {
+  opacity: 0;
+  animation-fill-mode: forwards;
+  animation-duration: 0.6s;
+  animation-name: fadein;
+  animation-delay: 2s;
+}
+
+@keyframes slidein {
+  from {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+
+  to {
+    transform: unset;
+    opacity: 1;
+  }
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

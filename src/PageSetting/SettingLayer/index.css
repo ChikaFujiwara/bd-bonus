@@ -1,0 +1,32 @@
+.page-setting-group {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+  /* 手机版时可以拖动 */
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* 为了在拖拽时保持样式 */
+.page-setting {
+  position: relative;
+  padding: 0.5rem 0.75rem;
+  margin-bottom: -1px;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.page-setting-group > .page-setting:first-child {
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+}
+
+.page-setting-group > .page-setting:last-child {
+  margin-bottom: 0;
+  border-bottom-right-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+}
+
+.dragging-item {
+  z-index: 2000;
+}

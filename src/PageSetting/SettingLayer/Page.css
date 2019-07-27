@@ -1,0 +1,52 @@
+.page-setting {
+  display: flex;
+}
+
+.page-setting .mini-imgs {
+  margin: auto;
+}
+
+.page-setting .btn-group {
+  display: flex;
+  align-items: center;
+}
+
+.draggable-handler {
+  display: flex;
+  align-items: center;
+  min-width: 2rem;
+}
+
+.draggable-handler > .draggable-handler-content {
+  width: 2rem;
+  height: 11px;
+  opacity: 0.25;
+  margin-right: 1.5rem;
+  cursor: row-resize;
+  background: -webkit-linear-gradient(
+    top,
+    #000,
+    #000 20%,
+    #fff 0,
+    #fff 40%,
+    #000 0,
+    #000 60%,
+    #fff 0,
+    #fff 80%,
+    #000 0,
+    #000
+  );
+  background: linear-gradient(
+    180deg,
+    #000,
+    #000 20%,
+    #fff 0,
+    #fff 40%,
+    #000 0,
+    #000 60%,
+    #fff 0,
+    #fff 80%,
+    #000 0,
+    #000
+  );
+}
